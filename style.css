@@ -1,0 +1,16 @@
+#mars
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hebmarseille
+{
+    width: 30%;
+}
+
+#mars>h2{
+    width: 100%;
+}
