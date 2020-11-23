@@ -14,3 +14,17 @@
 #mars>h2{
     width: 100%;
 }
+
+#foot
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+}
