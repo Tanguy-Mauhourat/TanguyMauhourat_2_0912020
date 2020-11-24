@@ -1,45 +1,43 @@
-#mars
-{
+html {
+    font-family: "Raleway", Raleway, sans-serif;
+}
+
+#hebmars {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.hebmarseille
-{
+.hebmarseille {
     width: 30%;
 }
 
-#mars>h2{
+#mars>h2 {
     width: 100%;
 }
 
-#popmarseille
-{
+#popmarseille {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-#actmarseille
-{
+#actmarseille {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-#foot
-{
+#foot {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
 
-.info
-{
+.info {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
