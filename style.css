@@ -4,8 +4,11 @@ html {
 
 #fhead {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     
 }
+
 #hebmarseille {
     display: flex;
     flex-direction: row;
