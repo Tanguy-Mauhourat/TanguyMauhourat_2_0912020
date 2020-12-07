@@ -6,7 +6,17 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
+
+}
+
+#fhead>h1{
+    width: 70%;
+}
+
+#hebpopflex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 #hebmarseille {
@@ -19,7 +29,7 @@ html {
     width: 60%;
 }
 
-img{
+img {
     width: 100%;
 }
 
@@ -32,7 +42,8 @@ img{
     border-width: 3px;
 }
 
-#hebmarseille>h2, #hebmarseille>p{
+#hebmarseille>h2,
+#hebmarseille>p {
     width: 100%;
 }
 
@@ -53,13 +64,18 @@ img{
     border-style: ridge;
     border-color: grey;
     border-width: 3px;
-    width:30%;
+    width: 30%;
+}
+
+#actmarseille>h2 {
+    width: 100%;
 }
 
 #actmarseille {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .actmars {
@@ -67,7 +83,7 @@ img{
     border-style: ridge;
     border-color: grey;
     border-width: 3px;
-    width:25%;
+    width: 25%;
 }
 
 #foot {
@@ -84,6 +100,6 @@ img{
     flex-wrap: wrap;
 }
 
-.fa-star{
-    color:#0065fc;
+.fa-star {
+    color: #0065fc;
 }
