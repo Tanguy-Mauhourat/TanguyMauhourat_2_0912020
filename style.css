@@ -5,12 +5,20 @@ html {
 #fhead {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+
 
 }
 
-#fhead>h1{
-    width: 70%;
+#shead {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fhead>img {
+    width: 60%;
+    max-width: 75px;
 }
 
 #hebpopflex {
@@ -58,6 +66,7 @@ img {
 }
 
 .popmars {
+
     background-color: white;
     margin: 10px;
     border-radius: 10px;
