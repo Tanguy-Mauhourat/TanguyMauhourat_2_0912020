@@ -59,12 +59,17 @@ img {
 }
 
 .hebmars {
-    width: 30%;
+    width: 28%;
     background-color: white;
     border-radius: 10px;
     border-style: ridge;
     border-color: grey;
     border-width: 3px;
+    margin:10px ;
+}
+
+.hebmars>img{
+height:60% ;
 }
 
 #hebmarseille>h2,
@@ -97,6 +102,7 @@ img {
 .impop{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    width: 35%;
 }
 
 .popbox {
@@ -114,9 +120,44 @@ img {
 }
 
 #actmarseille {
-    display: grid;
-    grid-template: repeat(6/1fr)/ repeat(4/1fr);
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 30px;
+}
+
+#gridact{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+}
+
+#aport{
+    grid-column: 1/2;
+    grid-row:1/8 ;
+}
+
+#afort{
+    grid-column: 2/3;
+    grid-row:1/5 ;
+}
+
+#ailes{
+    grid-column: 2/3;
+    grid-row:6/8 ;
+}
+
+#acal{
+    grid-column: 3/4;
+    grid-row:1/8 ;
+}
+
+#agarde{
+    grid-column: 4/5;
+    grid-row:1/4 ;
+}
+
+#along{
+    grid-column: 4/5;
+    grid-row:5/8 ;
 }
 
 .actmars {
