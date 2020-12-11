@@ -1,9 +1,13 @@
 html {
     font-family: "Raleway", Raleway, sans-serif;
 }
-header>a:link, a:visited, a:focus, a:active, a{
+a:link, a:visited, a:focus, a:active, a{
     color: blue;
     text-decoration: none;
+}
+
+.linkfoot:link, .linkfoot:visited, .linkfoot:focus, .linkfoot:active{
+    color: black;
 }
 #fhead {
     display: flex;
