@@ -9,6 +9,16 @@ a:link, a:visited, a:focus, a:active, a{
 .linkfoot:link, .linkfoot:visited, .linkfoot:focus, .linkfoot:active{
     color: black;
 }
+
+img {
+    width: 100%;
+    max-height: 150px;
+}
+
+div>img{
+    width: 100%;
+}
+
 #fhead {
     display: flex;
     flex-direction: row;
@@ -51,12 +61,10 @@ a:link, a:visited, a:focus, a:active, a{
 .imheb{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    height: 60%;
 }
 
-img {
-    width: 100%;
-    max-height: 150px;
-}
+
 
 .hebmars {
     width: 28%;
