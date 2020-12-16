@@ -42,6 +42,11 @@ div>img{
     max-width: 75px;
 }
 
+#filter{
+    display: flex;
+    justify-content: flex-start;
+}
+
 #hebpopflex {
     display: flex;
     justify-content: space-around;
@@ -190,7 +195,7 @@ height:60% ;
     flex-wrap: wrap;
 }
 
-.fa-star {
+.fa-star, .fa-dog, .fa-child, .fa-heart, .fa-money-bill-wave, .fa-info-circle {
     color: #0065fc;
 }
 
