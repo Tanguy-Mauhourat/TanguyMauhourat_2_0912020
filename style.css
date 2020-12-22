@@ -21,19 +21,19 @@ a:link, a:visited, a:focus, a:active, a{
 
 img {
     width: 100%;
-    max-height: 150px;
-}
-
-div>img{
-    width: 100%;
+    max-height: 200px;
 }
 
 #fhead {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-height: 3em;
 }
 
+.logo{
+    max-height: 3em;
+}
 #shead {
     width: 30%;
     display: flex;
@@ -73,7 +73,7 @@ div>img{
 .imheb{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    height: 60%;
+    height: 180px;
 }
 
 
@@ -108,8 +108,7 @@ height:60% ;
 }
 
 .popmars {
-    display: flex;
-    flex-direction: row;
+    
     background-color: white;
     margin: 10px;
     border-radius: 10px;
@@ -122,7 +121,6 @@ height:60% ;
 .impop{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: 35%;
 }
 
 .popbox {
