@@ -1,10 +1,19 @@
 html {
     font-family: "Raleway", Raleway, sans-serif;
 }
+
 a:link, a:visited, a:focus, a:active, a{
     color: blue;
     text-decoration: none;
 }
+
+.hebmars:link, .hebmars:visited, .hebmars:active, .hebmars:focus,
+.popmars:link, .popmars:visited, .popmars:active, .popmars:focus,
+.actmars:link, .actmars:visited, .actmars:active, .actmars:focus{
+    color: black;
+}
+
+
 
 .linkfoot:link, .linkfoot:visited, .linkfoot:focus, .linkfoot:active{
     color: black;
