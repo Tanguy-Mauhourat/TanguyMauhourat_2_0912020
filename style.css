@@ -54,6 +54,13 @@ img {
     justify-content:flex-start;
 }
 
+#filter>p, .fafil>p{
+    margin:auto;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight:600;
+}
+
 #hebpopflex {
     display: flex;
     justify-content: space-around;
@@ -202,6 +209,8 @@ height:60% ;
 
 .fa-star, .fa-dog, .fa-child, .fa-heart, .fa-money-bill-wave, .fa-info-circle {
     color: #0065fc;
+    margin: auto;
+    
 }
 
 .gstar{
@@ -215,12 +224,17 @@ height:60% ;
     border-style: solid;
     border-radius: 25px;
     border-width: 1px;
-    padding: 10px;
+    
 }
 
 .fa-dog, .fa-child, .fa-heart, .fa-money-bill-wave {
     border-radius: 25px;
     border-style: hidden;
     background-color: #deebff;
-    padding: 10px;
+    padding: 15px;
+}
+
+.filcase{
+    padding-left: 10px;
+    padding-right: 10px;
 }
