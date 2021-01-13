@@ -20,15 +20,27 @@ a:link, a:visited, a:focus, a:active, a{
 }
 
 img {
-    width: 100%;
-    max-height: 200px;
+    max-width:100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+header{
+    margin: 25px;
+}
+
+section{
+    margin: 25px;
 }
 
 #fhead {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-height: 3em;
+    padding-top: 48px;
 }
 
 .logo{
@@ -37,12 +49,17 @@ img {
 #shead {
     width: 30%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    
 }
+
 
 #hebhead {
     border-top: 2px solid blue;
+    
 }
+
 
 #fhead>img {
     width: 60%;
@@ -51,6 +68,7 @@ img {
 
 #filter{
     display: flex;
+    flex-wrap: wrap;
     justify-content:flex-start;
 }
 
@@ -59,6 +77,19 @@ img {
     margin-left: 1%;
     margin-right: 1%;
     font-weight:600;
+}
+
+#formulaire{
+    display: flex;
+}
+
+#formicon{
+    background-color: #f2f2f2;
+}
+
+#button{
+    background-color: #0065fc;
+    color: white;
 }
 
 #hebpopflex {
@@ -75,6 +106,7 @@ img {
     background-color: #f2f2f2;
     border-radius: 10px;
     width: 60%;
+    padding: 2em;
 }
 
 .imheb{
@@ -89,10 +121,9 @@ img {
     width: 28%;
     background-color: white;
     border-radius: 10px;
-    border-style: ridge;
-    border-color: grey;
+    border-style: hidden;
     border-width: 3px;
-    margin:10px ;
+    margin:2% ;
 }
 
 .hebmars>img{
@@ -102,12 +133,14 @@ height:60% ;
 #hebmarseille>h2,
 #hebmarseille>p {
     width: 100%;
+    padding-left: 2%;
 }
 
 #pophead{
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+margin: 0px 25px;
 }
 
 .fa-chart-line{
@@ -129,16 +162,20 @@ justify-content: space-around;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
-    border-style: ridge;
-    border-color: grey;
+    border-style: hidden;
     border-width: 3px;
     width: 90%;
+}
+
+.popim{
+    max-width:35%;
 }
 
 .impop{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin: 3px;
+    height: 100%;
 }
 
 .popbox {
@@ -161,6 +198,8 @@ justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
+
+
 
 #gridact{
     display: grid;
@@ -200,9 +239,15 @@ justify-content: space-around;
 .actmars {
     border-radius: 10px;
     border-style: ridge;
-    border-color: grey;
+    border-color: white;
     border-width: 3px;
     width: 85%;
+}
+
+.actim{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-style: hidden;
 }
 
 #foot {

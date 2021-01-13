@@ -33,10 +33,14 @@
     <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
     <p>En plein centre-ville ou en pleine nature</p>
 
-    <form method="GET">
-      <input type="text">
+    <form id="formulaire" method="GET">
+      <div id="formicon">
+        <i class="fas fa-map-marker-alt"></i>
+      </div>
+      <input type="text" value="Marseille, France">
+      <button id="button">Rechercher</button>
     </form>
-    <button>Rechercher</button>
+
 
     <div id="filter">
       <p>Filtres</p>
@@ -231,49 +235,49 @@
     <h2 id="activites">Activités à Marseille</h2>
     <div id="gridact">
       <a id="aport" class="actmars" href="#">
-        <div>
-          <div>
-            <img src="images/activites/3_medium/vieux_port.jpg" alt="photo" />
+        <div id="actA">
+          <div id="divact1">
+            <img class="actim" src="images/activites/3_medium/vieux_port.jpg" alt="photo" />
           </div>
           <h3>Vieux port</h3>
         </div>
       </a>
       <a id="afort" class="actmars" href="#">
-        <div>
-          <div>
-            <img src="images/activites/3_medium/fort_pomegues.jpg" alt="photo" />
+        <div id="actB">
+          <div id="divact2">
+            <img class="actim" src="images/activites/3_medium/fort_pomegues.jpg" alt="photo" />
           </div>
           <h3>Fort de Pomègues</h3>
         </div>
       </a>
       <a id="ailes" class="actmars" href="#">
-        <div>
-          <div>
-            <img src="images/activites/3_medium/iles_frioul.jpg" alt="photo" />
+        <div id="actC">
+          <div id="divact3">
+            <img class="actim" src="images/activites/3_medium/iles_frioul.jpg" alt="photo" />
           </div>
           <h3>Îles du Frioul</h3>
         </div>
       </a>
       <a id="acal" class="actmars" href="#">
-        <div>
-          <div>
-            <img src="images/activites/3_medium/parc_calanques.jpg" alt="photo" />
+        <div id="actD">
+          <div id="divact4">
+            <img class="actim" src="images/activites/3_medium/parc_calanques.jpg" alt="photo" />
           </div>
           <h3>Parc National des Calanques</h3>
         </div>
       </a>
       <a id="agarde" class="actmars" href="#">
-        <div>
-          <div>
-            <img src="images/activites/3_medium/notre_dame_de_la_garde.jpg" alt="photo" />
+        <div id="actE">
+          <div id="divact5">
+            <img class="actim" src="images/activites/3_medium/notre_dame_de_la_garde.jpg" alt="photo" />
           </div>
           <h3>Notre-Dame-de-la-Garde</h3>
         </div>
       </a>
       <a id="along" class="actmars" href="#">
-        <div>
-          <div>
-            <img src="images/activites/3_medium/parc_longchamp.jpg" alt="photo" />
+        <div id="actF">
+          <div id="divact6">
+            <img class="actim" src="images/activites/3_medium/parc_longchamp.jpg" alt="photo" />
           </div>
           <h3>Parc Longchamp</h3>
         </div>
@@ -284,19 +288,33 @@
   <footer id="foot">
     <div class="info">
       <h2>A propos</h2>
-      <a class="linkfoot" href="#">Fonctionnement du site</a>
-      <a class="linkfoot" href="#">Conditions générales de vente</a>
-      <a class="linkfoot" href="#">Données et confidentialité</a>
+      <p>
+        <a class="linkfoot" href="#">Fonctionnement du site</a>
+      </p>
+      <p>
+        <a class="linkfoot" href="#">Conditions générales de vente</a>
+      </p>
+      <p>
+        <a class="linkfoot" href="#">Données et confidentialité</a>
+      </p>
     </div>
     <div class="info">
       <h2>Nos hébergements</h2>
-      <a class="linkfoot" href="#">Charte qualité</a>
-      <a class="linkfoot" href="#">Soumettre votre hôtel</a>
+      <p>
+        <a class="linkfoot" href="#">Charte qualité</a>
+      </p>
+      <p>
+        <a class="linkfoot" href="#">Soumettre votre hôtel</a>
+      </p>
     </div>
     <div class="info">
       <h2>Assistance</h2>
-      <a class="linkfoot" href="#">Centre d'aide</a>
-      <a class="linkfoot" href="#">Nous contacter</a>
+      <p>
+        <a class="linkfoot" href="#">Centre d'aide</a>
+      </p>
+      <p>
+        <a class="linkfoot" href="#">Nous contacter</a>
+      </p>
     </div>
   </footer>
 </body>
