@@ -2,37 +2,58 @@ html {
     font-family: "Raleway", Raleway, sans-serif;
 }
 
-a:link, a:visited, a:focus, a:active, a{
+a:link,
+a:visited,
+a:focus,
+a:active,
+a {
     color: blue;
     text-decoration: none;
 }
 
-.hebmars:link, .hebmars:visited, .hebmars:active, .hebmars:focus,
-.popmars:link, .popmars:visited, .popmars:active, .popmars:focus,
-.actmars:link, .actmars:visited, .actmars:active, .actmars:focus{
+.hebmars:link,
+.hebmars:visited,
+.hebmars:active,
+.hebmars:focus,
+.popmars:link,
+.popmars:visited,
+.popmars:active,
+.popmars:focus,
+.actmars:link,
+.actmars:visited,
+.actmars:active,
+.actmars:focus {
     color: black;
 }
 
 
 
-.linkfoot:link, .linkfoot:visited, .linkfoot:focus, .linkfoot:active{
+.linkfoot:link,
+.linkfoot:visited,
+.linkfoot:focus,
+.linkfoot:active {
     color: black;
+}
+
+body{
+    margin-top: 0%;
 }
 
 img {
-    max-width:100%;
-    max-height: 100%;
+    max-width: 100%;
     width: auto;
     height: auto;
 }
 
-header{
+header {
+    margin: 25px;
+    margin-top: 0%;
+}
+
+section {
     margin: 25px;
 }
 
-section{
-    margin: 25px;
-}
 
 #fhead {
     display: flex;
@@ -40,56 +61,91 @@ section{
     flex-wrap: wrap;
     justify-content: space-between;
     max-height: 3em;
-    padding-top: 48px;
+    margin-bottom: auto;
 }
 
-.logo{
+.logo {
     max-height: 3em;
+    margin-bottom: auto;
+    padding-top: 25px;
 }
+
+header>img{
+    padding-top: 0%;
+}
+
 #shead {
     width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     
 }
-
-
-#hebhead {
-    border-top: 2px solid blue;
-    
-}
-
-
 #fhead>img {
     width: 60%;
     max-width: 75px;
 }
 
-#filter{
+.ulhead {
     display: flex;
     flex-wrap: wrap;
-    justify-content:flex-start;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 0%;
 }
 
-#filter>p, .fafil>p{
-    margin:auto;
+.hebhead {
+    border-top-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.lihead {
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+#intro{
+    margin-top: 3em;
+}
+
+#filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#filter>p,
+.fafil>p {
+    margin: auto;
     margin-left: 1%;
     margin-right: 1%;
-    font-weight:600;
+    font-weight: 600;
 }
 
-#formulaire{
+#formulaire {
     display: flex;
 }
 
-#formicon{
+.formicon {
     background-color: #f2f2f2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
-#button{
+.fa-map-marker-alt {
+    margin: 12px;
+}
+
+.button {
     background-color: #0065fc;
     color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -2px;
 }
 
 #hebpopflex {
@@ -104,12 +160,12 @@ section{
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #f2f2f2;
-    border-radius: 10px;
+    border-radius: 25px;
     width: 60%;
     padding: 2em;
 }
 
-.imheb{
+.imheb {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 180px;
@@ -123,11 +179,11 @@ section{
     border-radius: 10px;
     border-style: hidden;
     border-width: 3px;
-    margin:2% ;
+    margin: 2%;
 }
 
-.hebmars>img{
-height:60% ;
+.hebmars>img {
+    height: 60%;
 }
 
 #hebmarseille>h2,
@@ -136,14 +192,14 @@ height:60% ;
     padding-left: 2%;
 }
 
-#pophead{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-margin: 0px 25px;
+#pophead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 25px;
 }
 
-.fa-chart-line{
+.fa-chart-line {
     margin: auto;
 }
 
@@ -153,12 +209,13 @@ margin: 0px 25px;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #f2f2f2;
-    border-radius: 10px;
+    border-radius: 25px;
     width: 30%;
+    padding: 2em;
 }
 
 .popmars {
-    
+
     background-color: white;
     margin: 10px;
     border-radius: 10px;
@@ -167,11 +224,11 @@ margin: 0px 25px;
     width: 90%;
 }
 
-.popim{
-    max-width:35%;
+.popim {
+    max-width: 35%;
 }
 
-.impop{
+.impop {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin: 3px;
@@ -184,9 +241,10 @@ margin: 0px 25px;
     margin: auto;
 }
 
-.popstar {
+.star {
     display: flex;
     flex-direction: row;
+    justify-content: left;
 }
 
 #actmarseille>h2 {
@@ -201,39 +259,39 @@ margin: 0px 25px;
 
 
 
-#gridact{
+#gridact {
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
 }
 
-#aport{
+#aport {
     grid-column: 1/2;
-    grid-row:1/8 ;
+    grid-row: 1/8;
 }
 
-#afort{
+#afort {
     grid-column: 2/3;
-    grid-row:1/5 ;
+    grid-row: 1/5;
 }
 
-#ailes{
+#ailes {
     grid-column: 2/3;
-    grid-row:6/8 ;
+    grid-row: 6/8;
 }
 
-#acal{
+#acal {
     grid-column: 3/4;
-    grid-row:1/8 ;
+    grid-row: 1/8;
 }
 
-#agarde{
+#agarde {
     grid-column: 4/5;
-    grid-row:1/4 ;
+    grid-row: 1/4;
 }
 
-#along{
+#along {
     grid-column: 4/5;
-    grid-row:5/8 ;
+    grid-row: 5/8;
 }
 
 .actmars {
@@ -244,7 +302,7 @@ margin: 0px 25px;
     width: 85%;
 }
 
-.actim{
+.actim {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-style: hidden;
@@ -262,36 +320,55 @@ margin: 0px 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: 2em;
 }
 
-.fa-star, .fa-dog, .fa-child, .fa-heart, .fa-money-bill-wave, .fa-info-circle {
+.fa-star,
+.fa-dog,
+.fa-child,
+.fa-heart,
+.fa-money-bill-wave,
+.fa-info-circle {
     color: #0065fc;
     margin: auto;
-    
+
 }
 
-.gstar{
+.fa-info-circle{
+    margin-right: 5px;
+}
+
+.fa-star{
+    margin: 1px;
+}
+.gstar {
     color: #deebff;
 }
 
-.fafil{
+.fafil {
     display: flex;
     flex-direction: row;
-    margin:15px;
+    margin: 15px;
     border-style: solid;
     border-radius: 25px;
-    border-width: 1px;
-    
+    border-width: 2px;
+    border-color: grey;
+
 }
 
-.fa-dog, .fa-child, .fa-heart, .fa-money-bill-wave {
+.fa-dog,
+.fa-child,
+.fa-heart,
+.fa-money-bill-wave {
     border-radius: 25px;
     border-style: hidden;
     background-color: #deebff;
     padding: 15px;
+    margin-left: -2px;
 }
 
-.filcase{
+.filcase {
     padding-left: 10px;
     padding-right: 10px;
 }
