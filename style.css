@@ -67,7 +67,7 @@ section {
 .logo {
     max-height: 3em;
     margin-bottom: auto;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 header>img{
@@ -95,14 +95,14 @@ header>img{
     border-top-style: solid;
     border-color: blue;
     border-width: 2px;
-    padding-top: 25px;
+    padding-top: 35px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
 }
 
 .lihead {
-    padding-top: 25px;
+    padding-top: 35px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -128,6 +128,13 @@ header>img{
 
 #formulaire {
     display: flex;
+    
+}
+
+.recherche{
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
 }
 
 .formicon {
@@ -180,6 +187,7 @@ header>img{
     border-style: hidden;
     border-width: 3px;
     margin: 2%;
+    box-shadow: 1px 1px 10px #808080;
 }
 
 .hebmars>img {
@@ -222,6 +230,7 @@ header>img{
     border-style: hidden;
     border-width: 3px;
     width: 90%;
+    box-shadow: 1px 1px 10px #808080;
 }
 
 .popim {
@@ -231,7 +240,6 @@ header>img{
 .impop {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    margin: 3px;
     height: 100%;
 }
 
@@ -241,10 +249,16 @@ header>img{
     margin: auto;
 }
 
+.hebstar{
+    margin-left: 3%;
+}
+
 .star {
     display: flex;
     flex-direction: row;
     justify-content: left;
+    margin-top: 3em;
+    margin-left: 3%;
 }
 
 #actmarseille>h2 {
@@ -294,18 +308,32 @@ header>img{
     grid-row: 5/8;
 }
 
+
 .actmars {
     border-radius: 10px;
-    border-style: ridge;
-    border-color: white;
-    border-width: 3px;
+    border-style: none;
     width: 85%;
+    box-shadow: 1px 1px 10px #808080;
 }
 
 .actim {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-style: hidden;
+}
+
+.margtext{
+    font-weight: 600;
+    padding-left: 1em;
+    margin-bottom: 10px;
+}
+
+.margtext>h3,p{
+    margin: 3%;
+}
+
+.margtext>p{
+    font-weight: 500;
 }
 
 #foot {
