@@ -7,7 +7,7 @@ a:visited,
 a:focus,
 a:active,
 a {
-    color: blue;
+    color: #0065fc;
     text-decoration: none;
 }
 
@@ -35,7 +35,7 @@ a {
     color: black;
 }
 
-body{
+body {
     margin-top: 0%;
 }
 
@@ -70,14 +70,15 @@ section {
     padding-top: 35px;
 }
 
-header>img{
+header>img {
     padding-top: 0%;
 }
 
 #shead {
     width: 30%;
-    
+
 }
+
 #fhead>img {
     width: 60%;
     max-width: 75px;
@@ -93,7 +94,7 @@ header>img{
 
 .hebhead {
     border-top-style: solid;
-    border-color: blue;
+    color: #0065fc;
     border-width: 2px;
     padding-top: 35px;
     margin-left: auto;
@@ -108,7 +109,11 @@ header>img{
     margin-bottom: auto;
 }
 
-#intro{
+.lihead>.activite {
+    color: black;
+}
+
+#intro {
     margin-top: 3em;
 }
 
@@ -128,10 +133,10 @@ header>img{
 
 #formulaire {
     display: flex;
-    
+
 }
 
-.recherche{
+.recherche {
     border-color: grey;
     border-width: 1px;
     border-style: solid;
@@ -175,7 +180,6 @@ header>img{
 .imheb {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    height: 180px;
 }
 
 
@@ -235,12 +239,16 @@ header>img{
 
 .popim {
     max-width: 35%;
+    padding: 3px;
+}
+
+.imdiv{
+    padding: 3px;
 }
 
 .impop {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    height: 100%;
 }
 
 .popbox {
@@ -249,7 +257,11 @@ header>img{
     margin: auto;
 }
 
-.hebstar{
+.derouleur{
+    font-weight: 600;
+}
+
+.hebstar {
     margin-left: 3%;
 }
 
@@ -275,7 +287,7 @@ header>img{
 
 #gridact {
     display: grid;
-    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr   / 1fr 1fr 1fr 1fr;
 }
 
 #aport {
@@ -308,6 +320,10 @@ header>img{
     grid-row: 5/8;
 }
 
+.divact1{
+    grid-row: 1/6;
+}
+
 
 .actmars {
     border-radius: 10px;
@@ -322,17 +338,18 @@ header>img{
     border-style: hidden;
 }
 
-.margtext{
+.margtext {
     font-weight: 600;
     padding-left: 1em;
     margin-bottom: 10px;
 }
 
-.margtext>h3,p{
+.margtext>h3,
+p {
     margin: 3%;
 }
 
-.margtext>p{
+.margtext>p {
     font-weight: 500;
 }
 
@@ -350,6 +367,7 @@ header>img{
     flex-wrap: wrap;
     margin-right: auto;
     margin-left: 2em;
+    width: 250px;
 }
 
 .fa-star,
@@ -363,13 +381,17 @@ header>img{
 
 }
 
-.fa-info-circle{
+.fa-info-circle {
     margin-right: 5px;
+    background-color: #0065fc;
+    color: white;
+    border-radius: 50px;
 }
 
-.fa-star{
+.fa-star {
     margin: 1px;
 }
+
 .gstar {
     color: #deebff;
 }
@@ -393,10 +415,16 @@ header>img{
     border-style: hidden;
     background-color: #deebff;
     padding: 15px;
-    margin-left: -2px;
+    margin: -2px;
 }
 
 .filcase {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.filpet{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
 }

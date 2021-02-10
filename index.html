@@ -23,10 +23,10 @@
             <a href="#hebergement">Hébergements</a>
           </li>
           <li class="lihead">
-            <a href="#activites">Activités</a>
+            <a href="#activites" class="activite">Activités</a>
           </li>
           <li class="lihead">
-            <a href="#">S'inscrire</a>
+            <a href="#"><strong>S'inscrire</strong></a>
           </li>
         </ul>
       </nav>
@@ -64,7 +64,7 @@
       </div>
       <div class="fafil">
         <i class="fas fa-dog"></i>
-        <p class="filcase">Animaux autorisés</p>
+        <p class="filpet">Animaux autorisés</p>
       </div>
     </div>
     <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -77,12 +77,12 @@
 
       <a class="hebmars" href="#">
         <div>
-          <div>
+          <div class="imdiv">
             <img class="imheb" src="images/hebergements/3_medium/auberge_cannebiere.jpg" alt="photo" />
           </div>
           <div class="margtext">
             <h3>Auberge la Cannebière</h3>
-            <p>Nuit à partir de 25€</p>
+            <p>Nuit à partir de <strong>25€</strong></p>
             <div class="hebstar">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -96,12 +96,12 @@
       </a>
       <a class="hebmars" href="#">
         <div>
-          <div>
+          <div class="imdiv">
             <img class="imheb" src="images/hebergements/3_medium/hotel_port.jpg" alt="photo" />
           </div>
           <div class="margtext">
             <h3>Hôtel du port</h3>
-            <p>Nuit à partir de 52€</p>
+            <p>Nuit à partir de 52<strong>€</strong></p>
             <div class="hebstar">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -114,12 +114,12 @@
       </a>
       <a class="hebmars" href="#">
         <div>
-          <div>
+          <div class="imdiv">
             <img class="imheb" src="images/hebergements/3_medium/hotel_mouettes.jpg" alt="photo" />
           </div>
           <div class="margtext">
             <h3>Hôtel les mouettes</h3>
-            <p>Nuit à partir de 76€</p>
+            <p>Nuit à partir de 76<strong>€</strong></p>
             <div class="hebstar">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -132,12 +132,12 @@
       </a>
       <a class="hebmars" href="#">
         <div>
-          <div>
+          <div class="imdiv">
             <img class="imheb" src="images/hebergements/3_medium/hotel_mer.jpg" alt="photo" />
           </div>
           <div class="margtext">
             <h3>Hôtel de la mer</h3>
-            <p>Nuit à partir de 46€</p>
+            <p>Nuit à partir de 46<strong>€</strong></p>
             <div class="hebstar">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -150,12 +150,12 @@
       </a>
       <a class="hebmars" href="#">
         <div>
-          <div>
+          <div class="imdiv">
             <img class="imheb" src="images/hebergements/3_medium/auberge_panier.jpg" alt="photo" />
           </div>
           <div class="margtext">
             <h3>Auberge Le Panier</h3>
-            <p>Nuit à partir de 23€</p>
+            <p>Nuit à partir de <strong>23€</strong></p>
             <div class="hebstar">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -168,12 +168,12 @@
       </a>
       <a class="hebmars" href="#">
         <div>
-          <div>
+          <div class="imdiv">
             <img class="imheb" src="images/hebergements/3_medium/hotel_amina.jpg" alt="photo" />
           </div>
           <div class="margtext">
             <h3>Hôtel Chez Amina</h3>
-            <p>Nuit à partir de 96€</p>
+            <p>Nuit à partir de 96<strong>€</strong></p>
             <div class="hebstar">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -185,7 +185,7 @@
         </div>
         </div>
       </a>
-      <p>Afficher plus</p>
+      <p class="derouleur">Afficher plus</p>
     </section>
 
     <section id="popmarseille">
@@ -200,7 +200,7 @@
           </div>
           <div class="margtext">
             <h3>Hôtel Le soleil du matin</h3>
-            <p>Nuit à partir de 128€</p>
+            <p>Nuit à partir de 128<strong>€</strong></p>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -218,7 +218,7 @@
           </div>
           <div class="margtext">
             <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-            <p>Nuit à partir de 71€</p>
+            <p>Nuit à partir de 71<strong>€</strong></p>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -236,7 +236,7 @@
           </div>
           <div class="margtext">
             <h3>Hôtel Tout bleu et Blanc</h3>
-            <p>Nuit à partir de 68€</p>
+            <p>Nuit à partir de 68<strong>€</strong></p>
             <div class="star">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -255,50 +255,62 @@
     <div id="gridact">
       <a id="aport" class="actmars" href="#">
         <div id="actA">
-          <div id="divact1">
+          <div class="divact1">
             <img class="actim" src="images/activites/3_medium/vieux_port.jpg" alt="photo" />
           </div>
-          <h3 class="margtext">Vieux port</h3>
+          <div>
+            <h3 class="margtext">Vieux port</h3>
+          </div>
         </div>
       </a>
       <a id="afort" class="actmars" href="#">
         <div id="actB">
-          <div id="divact2">
+          <div class="divact2">
             <img class="actim" src="images/activites/3_medium/fort_pomegues.jpg" alt="photo" />
           </div>
-          <h3 class="margtext">Fort de Pomègues</h3>
+          <div>
+            <h3 class="margtext">Fort de Pomègues</h3>
+          </div>
         </div>
       </a>
       <a id="ailes" class="actmars" href="#">
         <div id="actC">
-          <div id="divact3">
+          <div class="divact3">
             <img class="actim" src="images/activites/3_medium/iles_frioul.jpg" alt="photo" />
           </div>
-          <h3 class="margtext">Îles du Frioul</h3>
+          <div>
+            <h3 class="margtext">Îles du Frioul</h3>
+          </div>
         </div>
       </a>
       <a id="acal" class="actmars" href="#">
         <div id="actD">
-          <div id="divact1">
+          <div class="divact1">
             <img class="actim" src="images/activites/3_medium/parc_calanques.jpg" alt="photo" />
           </div>
-          <h3 class="margtext">Parc National des Calanques</h3>
+          <div>
+            <h3 class="margtext">Parc National des Calanques</h3>
+          </div>
         </div>
       </a>
       <a id="agarde" class="actmars" href="#">
         <div id="actE">
-          <div id="divact4">
+          <div class="divact4">
             <img class="actim" src="images/activites/3_medium/notre_dame_de_la_garde.jpg" alt="photo" />
           </div>
-          <h3 class="margtext">Notre-Dame-de-la-Garde</h3>
+          <div>
+            <h3 class="margtext">Notre-Dame-de-la-Garde</h3>
+          </div>
         </div>
       </a>
       <a id="along" class="actmars" href="#">
         <div id="actF">
-          <div id="divact4">
+          <div class="divact4">
             <img class="actim" src="images/activites/3_medium/parc_longchamp.jpg" alt="photo" />
           </div>
-          <h3 class="margtext">Parc Longchamp</h3>
+          <div>
+            <h3 class="margtext">Parc Longchamp</h3>
+          </div>
         </div>
       </a>
     </div>
