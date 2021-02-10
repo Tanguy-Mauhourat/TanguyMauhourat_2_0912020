@@ -337,8 +337,7 @@ max-width: 38%;
     margin-bottom: 10px;
 }
 
-.margtext>h3,
-p {
+.margtext>h3,.margtext>p {
     margin: 3%;
 }
 
