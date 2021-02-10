@@ -54,6 +54,9 @@ section {
     margin: 25px;
 }
 
+header>img {
+    padding-top: 0%;
+}
 
 #fhead {
     display: flex;
@@ -64,24 +67,19 @@ section {
     margin-bottom: auto;
 }
 
-.logo {
-    max-height: 3em;
-    margin-bottom: auto;
-    padding-top: 35px;
-}
-
-header>img {
-    padding-top: 0%;
-}
-
 #shead {
     width: 30%;
-
 }
 
 #fhead>img {
     width: 60%;
     max-width: 75px;
+}
+
+.logo {
+    max-height: 3em;
+    margin-bottom: auto;
+    padding-top: 35px;
 }
 
 .ulhead {
@@ -177,27 +175,6 @@ header>img {
     padding: 2em;
 }
 
-.imheb {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-
-
-.hebmars {
-    width: 28%;
-    background-color: white;
-    border-radius: 10px;
-    border-style: hidden;
-    border-width: 3px;
-    margin: 2%;
-    box-shadow: 1px 1px 10px #808080;
-}
-
-.hebmars>img {
-    height: 60%;
-}
-
 #hebmarseille>h2,
 #hebmarseille>p {
     width: 100%;
@@ -211,10 +188,6 @@ header>img {
     margin: 0px 25px;
 }
 
-.fa-chart-line {
-    margin: auto;
-}
-
 #popmarseille {
     display: flex;
     flex-direction: column;
@@ -224,6 +197,26 @@ header>img {
     border-radius: 25px;
     width: 30%;
     padding: 2em;
+}
+
+.imheb {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hebmars {
+    width: 28%;
+    background-color: white;
+    border-radius: 10px;
+    border-style: hidden;
+    border-width: 3px;
+    margin: 2%;
+    box-shadow: 1px 1px 10px #808080;
+}
+
+.fa-chart-line {
+    margin: auto;
+    padding-left: 7em;
 }
 
 .popmars {
@@ -238,7 +231,7 @@ header>img {
 }
 
 .popim {
-    max-width: 35%;
+max-width: 38%;
     padding: 3px;
 }
 
@@ -427,4 +420,41 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     width: 150px;
+}
+
+@media (max-width: 380px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10em;
+    }
+
+    #hebpopflex{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    #hebmarseille{
+        display: flex;
+        flex-direction: column;
+    }
+    #gridact{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 800px){
+    header{
+        margin-bottom: 5em;
+    }
+
+    #hebpopflex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #foot{
+        display: flex;
+        flex-direction: column;
+    }
 }
